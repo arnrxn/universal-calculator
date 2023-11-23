@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "universal-calculator"
+version = "0.1.0"
+description = "A simple web app to solve daily calculation problems"
+authors = ["arnrxn <arnfried.rixen@gmail.com>"]
+readme = "README.md"
+packages = [{include = "universal_calculator"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.28.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
