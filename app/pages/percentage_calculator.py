@@ -25,6 +25,7 @@ def main():
     part = col1.number_input("Part Value", min_value=0.0, format="%.2f")
     whole = col2.number_input("Whole Value", min_value=0.0, format="%.2f")
 
+
     # Calculation and display
     try:
         result = calculate_percentage(part, whole)
