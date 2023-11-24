@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "A simple web app to solve daily calculation problems"
 authors = ["arnrxn <arnfried.rixen@gmail.com>"]
 readme = "README.md"
-packages = [{include = "universal_calculator"}]
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
